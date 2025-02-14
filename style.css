@@ -11,7 +11,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .header {
-  background-color: darkblue;
+  background-color: midnightblue;
   font-size: 24px;
   display: flex;
   justify-content: space-between;
@@ -107,4 +107,59 @@ body {
 }
 .card:hover {
   background-color: #117a65;
+}
+.journey {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+  background-color: #f7f7f7;
+  color: #99a0a8;
+  padding-bottom: 20px;
+}
+.journey-man {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card-2 {
+  background-color: white;
+  height: 45vh;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  border-radius: 4px;
+}
+.card2-image {
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.card-head1 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.card-desc1 {
+  color: #333333;
+  padding-bottom: 40px;
+}
+.card-2:hover {
+  background-color: #117a65;
+}
+.network {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #99a0a8;
+  font-size: 20px;
 }
