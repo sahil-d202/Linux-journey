@@ -119,10 +119,12 @@ body {
 .journey-man {
   background-color: #f7f7f7;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
+  padding-left: 150px;
+  padding-right: 100px;
 }
 .card-2 {
   background-color: white;
@@ -166,11 +168,13 @@ body {
 .network-share {
   background-color: #f7f7f7;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
   padding-bottom: 20px;
+  padding-left: 150px;
+  padding-right: 100px;
 }
 .card-3 {
   background-color: white;
